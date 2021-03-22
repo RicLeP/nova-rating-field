@@ -48,6 +48,12 @@ class Rating extends Field
         $this->withStyles(static::$defaultStyles);
     }
 
+    
+    public function isRequired(NovaRequest $request)
+	{
+		return false;
+	}
+    
     /**
      * Minimum rating.
      * default = 0.
