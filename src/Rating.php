@@ -4,6 +4,7 @@ namespace Nikaia\Rating;
 
 use Illuminate\Support\Arr;
 use Laravel\Nova\Fields\Field;
+use Laravel\Nova\Http\Requests\NovaRequest;
 
 class Rating extends Field
 {
